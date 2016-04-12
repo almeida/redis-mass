@@ -24,6 +24,16 @@ $ npm install -g redis-mass
 $ redis-mass /path/to/input-file | redis-cli --pipe
 ```
 
+### Mass insertion on Redis from pipe
+
+```bash
+$ printf "SET 129081 1\n" | redis-mass --pipe | redis-cli --pipe
+```
+or
+```bash
+$ cat input.txt | redis-mass --pipe | redis-cli --pipe
+```
+
 ### Output to console
 
 ```bash
