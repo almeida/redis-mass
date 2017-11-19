@@ -1,7 +1,7 @@
 {
 	"name": "redis-mass",
 	"description": "Node.js package to encode a sequence of Redis commands into Redis protocol, suitable for mass insertion",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"author": "Thyago Almeida (http://github.com/almeida)",
 	"maintainers": [
 		{
@@ -31,7 +31,8 @@
 		"mocha": "1.13.0"
 	},
 	"engines": {
-		"node": ">=0.4.1"
+		"node": ">= 4.0.0",
+		"npm": ">= 3.0.0"
 	},
 	"scripts": {
 		"test": "./node_modules/mocha/bin/mocha -R spec"
