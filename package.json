@@ -1,41 +1,49 @@
 {
-	"name": "redis-mass",
-	"description": "Node.js package to encode a sequence of Redis commands into Redis protocol, suitable for mass insertion",
-	"version": "0.2.0",
-	"author": "Thyago Almeida (http://github.com/almeida)",
-	"maintainers": [
-		{
-			"name": "almeida",
-			"email": "ar.thyagoaa@gmail.com"
-		}
-	],
-	"homepage": "http://github.com/almeida/redis-mass",
-	"repository": {
-		"type": "git",
-		"url": "http://github.com/almeida/redis-mass.git"
-	},
-	"main": "./lib/redis-mass.js",
-	"bin": {
-		"redis-mass": "./lib/redis-mass.js"
-	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://github.com/almeida/redis-mass/blob/master/LICENSE"
-		}
-	],
-	"bugs": {
-		"url": "http://github.com/almeida/redis-mass/issues"
-	},
-	"devDependencies": {
-		"mocha": "1.13.0"
-	},
-	"engines": {
-		"node": ">= 4.0.0",
-		"npm": ">= 3.0.0"
-	},
-	"scripts": {
-		"test": "./node_modules/mocha/bin/mocha -R spec"
-	},
-	"keywords": ["node", "redis-mass", "redis", "mass-insertion", "mass", "insertion", "protocol"]
+  "name": "redis-mass",
+  "description": "Node.js package to encode a sequence of Redis commands into Redis protocol, suitable for mass insertion",
+  "version": "0.3.0",
+  "author": "Thyago Almeida (http://github.com/almeida)",
+  "maintainers": [
+    {
+      "name": "almeida",
+      "email": "ar.thyagoaa@gmail.com"
+    }
+  ],
+  "homepage": "http://github.com/almeida/redis-mass",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/almeida/redis-mass.git"
+  },
+  "main": "./lib/redis-mass.js",
+  "bin": {
+    "redis-mass": "./lib/redis-mass.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/almeida/redis-mass/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "http://github.com/almeida/redis-mass/issues"
+  },
+  "devDependencies": {
+    "mocha": "1.13.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec"
+  },
+  "keywords": [
+    "node",
+    "redis-mass",
+    "redis",
+    "mass-insertion",
+    "mass",
+    "insertion",
+    "protocol"
+  ]
 }
