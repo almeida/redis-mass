@@ -1,7 +1,7 @@
 {
   "name": "redis-mass",
   "description": "Node.js package to encode a sequence of Redis commands into Redis protocol, suitable for mass insertion",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": "Thyago Almeida (http://github.com/almeida)",
   "maintainers": [
     {
